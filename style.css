@@ -1,3 +1,9 @@
+body{
+    font-family:'Roboto', sans-serif;
+
+}
+
+
 
 p{
     color:red;
@@ -5,7 +11,7 @@ p{
 
 
 h1{
-    color: blueviolet;
+    color: black;
 }
 
 h1{
@@ -16,12 +22,22 @@ p{
     text-align: center;
 } 
 
- .bolide1{
+ .bolide{
         color: blue;
- }
+        font-size: 12px;
+        font-style: italic
+    
+    }
 
- .bolide2{
+
+
+
+
+ .bolide{
         color: blue;
- }
+        font-size: 12px;
+        font-style: italic
+    }
+
 
 
