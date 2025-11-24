@@ -1,0 +1,29 @@
+
+/*colors veut tout simplement dire propriété et red c'est la valeur*/
+/*ici j'ai mis la couleuren rouge*/
+#div1{    
+    color: red;
+    background-color:blue;
+    border: solid black;
+
+}   
+
+#div2{
+    color:black;
+    background-color: yellows;
+    border: double;
+}
+
+
+#div3{
+    color: blacks;
+    background-color: blue;
+    border: dotted;
+}
+
+
+#div4{
+    color: black;
+    background-color: blueviolet;
+    border: dashed;
+}
