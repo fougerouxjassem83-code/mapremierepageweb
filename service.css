@@ -5,12 +5,17 @@
     color: red;
     background-color:blue;
     border: solid black;
+    width: 150px;
+    text-align: center;
 }   
 /*j'ai tout simplement mis sur mon div2 ma police en noir et à l'intérieur de mon arrière plan en jaune et la bordure en double*/ 
 #div2{
     color:black;
     background-color: yellows;
     border: double;
+    /*width 150px signifie que la largeur est a 150px*/ 
+    width: 150px;
+    
 }
 
 
@@ -18,6 +23,7 @@
     color: blacks;
     background-color: blue;
     border: dotted;
+    width: 150px;
 }
 
 
@@ -25,7 +31,9 @@
     color: black;
     background-color: blueviolet;
     border: dashed;
+    width: 150px;
 }
+
 
 
 
