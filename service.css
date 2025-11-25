@@ -1,13 +1,12 @@
 
 /*colors veut tout simplement dire propriété et red c'est la valeur*/
-/*ici j'ai mis la couleuren rouge*/
+/*ici j'ai mis la couleur en rouge*/
 #div1{    
     color: red;
     background-color:blue;
     border: solid black;
-
 }   
-
+/*j'ai tout simplement mis sur mon div2 ma police en noir et à l'intérieur de mon arrière plan en jaune et la bordure en double*/ 
 #div2{
     color:black;
     background-color: yellows;
@@ -26,4 +25,66 @@
     color: black;
     background-color: blueviolet;
     border: dashed;
+}
+
+
+
+
+/* les instructions que nous rencontrerons en dessous est tout simplement le codage qui permer d'avoir les ajustements du coté css*/
+
+
+
+
+#div1{
+  border:solid black;
+  color:black;
+  text-align:center;
+  border-radius: 25px 10px 45px 45px
+}
+
+#div2{
+  border:solid black;
+  color:black;
+  text-align:center;
+  border-radius:20px 25px 50px
+}
+
+#div3{
+  border:solid black;
+  color:black;
+  text-align:center;
+  border-radius:10px 20px 5px
+}
+
+
+.pétal1 {
+  width: 80px;
+  height: 80px;
+  background: pink;
+  border-radius: 50% 50% 0 50%;
+  position: relative;
+  transform: rotate(45deg);
+  margin: 40px auto;
+}
+
+
+.centre {
+       width: 40px;
+  height: 40px;
+  background: yellow;
+  border-radius: 50%;
+  margin: -20px auto 0;
+  position: relative;
+  top: -20px;
+}
+
+
+.pétal2{
+    width: 80px;
+  height: 80px;
+  background: pink;
+  border-radius: 50% 50% 0 50%;
+  position: relative;
+  transform: rotate(225deg);
+  margin: 40px auto;
 }
