@@ -1,3 +1,11 @@
+div{
+  width: 400px;px;/*width signifie la largeur*/
+  height: 150px; /*height signifie la hauteur*/
+
+}
+
+
+
 
 /*colors veut tout simplement dire propriété et red c'est la valeur*/
 /*ici j'ai mis la couleur en rouge*/
@@ -14,25 +22,20 @@
     background-color: yellows;
     border: double;
     /*width 150px signifie que la largeur est a 150px*/ 
-    width: 150px;
-    
 }
 
-
+/*la balise id est un idenifiant pour venir recupérer, cibler l'identifiant on utiise le #*/ 
 #div3{
     color: blacks;
     background-color: blue;
-    border: dotted;
+    border: solid;
     width: 150px;
-}
+    border-top
+  
+  
+  }
 
 
-#div4{
-    color: black;
-    background-color: blueviolet;
-    border: dashed;
-    width: 150px;
-}
 
 
 
@@ -65,34 +68,30 @@
 }
 
 
-.pétal1 {
-  width: 80px;
-  height: 80px;
-  background: pink;
-  border-radius: 50% 50% 0 50%;
-  position: relative;
-  transform: rotate(45deg);
-  margin: 40px auto;
+
+#div5{ /*jai créer une pierre d'émeraude*/
+  border-radius: 30% 70% 70% 30%/30% 58% 42% 70%;
+  box-shadow: 6px 6px 0px rgba(0, 0, 0);
+  width: 150;
+  height: 150;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.126);
+  border:solid rgb(0, 0, 0);
+  background:linear-gradient(to left,mediumvioletred,blueviolet)
 }
 
 
-.centre {
-       width: 40px;
-  height: 40px;
-  background: yellow;
-  border-radius: 50%;
-  margin: -20px auto 0;
-  position: relative;
-  top: -20px;
+
+#div6{
+  box-shadow:6px 6px 0px rgba(0, 0, 0); 
+  background-color: red;
+  border: solid;
+  height: 200px;
+  width: 170px;
 }
 
 
-.pétal2{
-    width: 80px;
-  height: 80px;
-  background: pink;
-  border-radius: 50% 50% 0 50%;
-  position: relative;
-  transform: rotate(225deg);
-  margin: 40px auto;
-}
+
+
+
+
+
