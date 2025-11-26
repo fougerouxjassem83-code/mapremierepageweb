@@ -3,61 +3,74 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="formulaire.css"rel="stylesheet">
         <title>inscription</title>
    
     </head>
     <body>
         
-                    <!--pour créer un formulaire ll faut mettre la balise <form><form/>-->
+            <!--pour créer un formulaire ll faut mettre la balise <form><form/>-->
             <form>
+<div id="div1">
+      <!--j'indique a l'ordinateur que le label est associer a cettte ordinateur-->
+      <label>Prénom(s):</label>
+      <input type="text">
+</div>
 
-                <!--j'indique a l'ordinateur que le label est associer a cettte ordinateur-->
-      <label for="prenom"> Prénom(s):</label>
-      <br>
-      <input type="text" name="prenom" id="prenom">
-      
-<br>
-      
-      <label for="Nom"> Nom(s):</label>
-      <br>         <!--dans ma balise input jai rajouter-->
-      <input type="text" name="Nom" id="Nom">
 
-<br>
+
+<div id="div1">
+      <label>Nom(s):</label> <!--dans ma balise input jai rajouter-->
+      <input type="text">
+</div>
+
+
       
+<br><br>
+
+<div id="div2">
       <label for="Ville"> Ville:</label>
-      <br>         <!--le text ici signifie qu'à l'intérieure de l'input -->
+              <!--le text ici signifie qu'à l'intérieure de l'input -->
       <input type="text" id="Ville">
+</div>
 
 
-
-<br><br>    <!--la balise <br> signifie les espacements-->
+    <!--la balise <br> signifie les espacements-->
    
+<div id="div2">
     <label for="Age"> Age:</label>
-    <input type="text" id="Age">
-    
-<br><br>
+    <input type="text" name="Age" id="Age">
+ </div> 
+
+
+   
+ <br><br>
                 <!--Ici j'ai rajouter un un emplacement ou en poura saisir notre-->
-    <label for="Date de naissance"> Date de naissance:</label>
-    <input type="date" name="date de naissance" id="date de naissance">
+<div id="div3"></div>    
+                <label for="Date de naissance"> Date de naissance:</label>
+                <input type="date" name="date de naissance" id="date de naissance">
+</div> 
+ 
+                
 
-<br><br>
 
+<div id="div3">
         <label for="Code postal"> Code postal: </label>
         <input type="text" name="Code postal" id="Code postal">
-
+</div>
 
 
 <br><br>
                 
            <!--ici j'ai créer un label au quel je peux mettre un email pour l'envoyer-->
         <input type="email" placeholder="Votre email">
-        <input type="submit" value="Envoyer"> <!--ici j'ai rajouter value pour que pour que le text soit lisible -->
+        <input type="submit" value="Envoyer"> <!--ici j'ai rajouter value pour que  le text envoyer soit lisible -->
                                               <!--Sans value, le bouton n’aurait pas de texte lisible-->
 
 <br><br>
     
                 <!--ici j'ai créer un label pour choisir le genre de la personne-->
-    <label>genre:</label>
+    <label>Genre:</label>
     <label for="F"> F</label>
     <input type="radio" name="sexe" id="sexefeminin">
 
@@ -93,39 +106,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
 </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
