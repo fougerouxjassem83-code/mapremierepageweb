@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>               <!-- coding-->
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
@@ -7,7 +7,88 @@
    
     </head>
     <body>
+        
+                    <!--pour créer un formulaire ll faut mettre la balise <form><form/>-->
+            <form>
+
+                <!--j'indique a l'ordinateur que le label est associer a cettte ordinateur-->
+      <label for="prenom"> Prénom(s):</label>
+      <br>
+      <input type="text" name="prenom" id="prenom">
+      
+<br>
+      
+      <label for="Nom"> Nom(s):</label>
+      <br>         <!--dans ma balise input jai rajouter-->
+      <input type="text" name="Nom" id="Nom">
+
+<br>
+      
+      <label for="Ville"> Ville:</label>
+      <br>         <!--le text ici signifie qu'à l'intérieure de l'input -->
+      <input type="text" id="Ville">
+
+
+
+<br><br>    <!--la balise <br> signifie les espacements-->
+   
+    <label for="Age"> Age:</label>
+    <input type="text" id="Age">
     
+<br><br>
+                <!--Ici j'ai rajouter un un emplacement ou en poura saisir notre-->
+    <label for="Date de naissance"> Date de naissance:</label>
+    <input type="date" name="date de naissance" id="date de naissance">
+
+<br><br>
+
+        <label for="Code postal"> Code postal: </label>
+        <input type="text" name="Code postal" id="Code postal">
+
+
+
+<br><br>
+                
+           <!--ici j'ai créer un label au quel je peux mettre un email pour l'envoyer-->
+        <input type="email" placeholder="Votre email">
+        <input type="submit" value="Envoyer"> <!--ici j'ai rajouter value pour que pour que le text soit lisible -->
+                                              <!--Sans value, le bouton n’aurait pas de texte lisible-->
+
+<br><br>
+    
+                <!--ici j'ai créer un label pour choisir le genre de la personne-->
+    <label>genre:</label>
+    <label for="F"> F</label>
+    <input type="radio" name="sexe" id="sexefeminin">
+
+    <label for="M"> M</label>
+    <input type="radio" name="sexe" id="sexemasculin">
+
+<br><br>
+
+
+     <hr>
+
+
+
+    <label>Discipline:</label>
+    <br>
+    <label for="Maths"> Maths </label>
+    <input type="checkbox" name="Maths" id="Maths">
+                <!--checkbox c'est pour selectionner les cases qu'on veut cocher-->
+<br>
+    
+    <label for="Histoire Géographie"> Histoire Géographie</label>
+    <input type="checkbox" name="Histoire grographie" id="Histoire Gégraphie">
+
+<br>
+
+    <label for="Science"> Science</label>
+    <input type="checkbox" name="Science" id="science">
+    
+<br><br>
+
+    <input type="submit" value="Envoyer">
 
 
 
@@ -21,28 +102,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</form>
 
 
 
