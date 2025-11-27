@@ -1,0 +1,15 @@
+
+
+table{
+  font-family: arial, sans-serif; /* alors jai rajouter*/
+  border-collapse: collapse; 
+  width: 50%; /* jai mis la largeur en 50% pour avoir un résultat*/
+}
+
+                /*Ici j'attaque directement les selecteurs TD&TH pour tout simplement */
+
+td, th{
+  border: 1px solid #dddddd;
+  text-align: left; /*ici jai tout simplement aligné les td vers la droite */
+  padding: 10px; /*par la suite j'ai aggrandis la hauteur  */
+}
