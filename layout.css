@@ -1,0 +1,75 @@
+/*nous allons commancer*/
+
+*{     /*je selectionne tout*/
+    box-sizing: border-box;
+
+
+
+}
+
+
+
+header{
+    background-color: #666; /*l'arrière plans est colorié en gris*/
+    padding: 35px;  /*ici l'entete c'est élargie */
+    text-align: center; /* j'ai tout simplement centrer mon titre*/
+    color:aliceblue; /* j'ai changer la couleur de mon tittre en blanc*/
+    font-size: 35px; /*ici j'ai changer la taille de ma police*/
+}
+
+
+
+                            
+                            
+  /*ici j'effectue la mise en forme section de ma page web*/                          
+section{
+    display:-webkit-flex;
+    display: flex; /*c'est pour que ma page soit flexible à l'affichage pour que l'on puisse*/
+    
+}
+
+
+
+/*Ici j'attaque la nav*/
+nav{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #ccc;
+    padding: 15px;
+}
+
+
+
+
+/**misse en forme de ma balise*/
+
+nav ul{   /*ici j'attaque le nav */
+    list-style: none; /* je retire les points noir de ma liste */
+    padding: 20px;
+
+
+}
+
+
+/*ici j'attaque l'article de ma page */
+
+article{
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+
+
+/*ici je vais effectuer le pied de la page */
+
+footer{
+background: #777;
+padding: 10px;
+text-align: center;
+}
+
+
