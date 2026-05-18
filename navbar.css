@@ -12,10 +12,6 @@ nav{
     top: 0%;
 }
 
-
-
-
-
 nav li{
     width: 25%;
     text-align: center;
@@ -30,7 +26,6 @@ nav ul::after{
     display: table;
     clear: both;
 }
-
 
 
 nav a{
